@@ -7,10 +7,10 @@ IDENT_OPTS="-v -nip"
 all: $(PROG)
 
 $(PROG): $(OBJS)
-    gcc -o $@ $(OBJS)
+	gcc -o $@ $(OBJS)
 
 clean::
-    rm -f $(PROG) $(OBJS)
+	rm -f $(PROG) $(OBJS)
 
 indent::
-    indent $(INDENT_OPTS) < SHA2Words.c
+	indent $(INDENT_OPTS) < SHA2Words.c
