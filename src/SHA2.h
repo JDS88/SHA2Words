@@ -126,7 +126,7 @@ char* SHA512_Data();
 
 #endif
 
-#ifdef
+#ifdef	__cplusplus
 }
 #endif
 
